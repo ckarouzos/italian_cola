@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "italian-cola"
+version = "0.1.0"
+description = ""
+authors = ["ckarouzos"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+evaluate = "^0.4.1"
+datasets = "^2.14.5"
+transformers = "^4.34.0"
+ipdb = "^0.13.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
